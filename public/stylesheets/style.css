@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font&display=swap');
+.menu {
+	font:2em 'Cute Font', cursive;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+.uno  {
+	float:left;
+	width:40%;
+	background-color: #B33600;
+	text-align: center;
+
+}
+
+
+.tres{
+	float:right;
+	width:20%;
+	text-align: center;
+	background-color: #FF5B14;
+	
+}
+.info{
+	clear: both;
+	background-color: #FF5B14;
+}
+body {
+  margin:0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #FF5B14;
+}
+
+a {
+  color: #00B7FF;
+}
