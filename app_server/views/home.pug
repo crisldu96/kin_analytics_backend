@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    div.info
+        h1= pageHeader.title
+        p #{pageHeader.strapLine}
+    div.regiones
+        each lugar in regiones
+            .region-block
+                h4
+                    a(href='/region')=lugar.region
+                p Parques Nacionales : #{lugar.parquesNacionales}
+    		

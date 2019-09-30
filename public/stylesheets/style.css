@@ -25,7 +25,31 @@
 .info{
 	clear: both;
 	background-color: #FF5B14;
+	
+	padding: 10px;
 }
+.regiones{
+	
+	padding-left: 5px;
+	width:70%;
+}
+.region-block{
+	border: 3px solid #B33600 ;
+	margin:5px;
+	padding-left:10px;
+	clear:both;
+
+}
+li.provin{
+	list-style-type: none;
+	border-radius: 10px;
+	background-color: #B33600;
+	color:white;
+	padding: 5px;
+	margin:0 10px;
+	display:inline;
+}
+
 body {
   margin:0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -33,5 +57,5 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: white;
 }

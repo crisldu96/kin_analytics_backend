@@ -4,6 +4,8 @@ const ctrlMain = require('../controllers/main');
 
 /* GET home page. */
 router.get('/', ctrlMain.home);
+router.get('/region', ctrlMain.region);
+
 router.get('/info', ctrlMain.info);
 router.get('/contacto', ctrlMain.contacto);
 
