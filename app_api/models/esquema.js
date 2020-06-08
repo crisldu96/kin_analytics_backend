@@ -6,19 +6,22 @@ const parqueSchema = new mongoose.Schema({
 		required: true
 	},
 	provincias:[String],
-	extension:{
-		type:Number,
+	extension: {
+		type:String
 	}
-})
+});
 
 const regionesSchema = new mongoose.Schema({
 	region: {
 		type: String,
 		required: true
 	},
-	parquesNacionales: {
+	numParques: {
 		type: String,
 		required: true
 	},
 	infoParque:[parqueSchema]
 });
+
+mongoose.model('Parq',regionesSchema,'parques');
+//mongoose.model('Parq',regionesSchema,'parqueNacionales');

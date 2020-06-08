@@ -1,6 +1,8 @@
 const mongoose=require('mongoose');
 
+//const dbURI = 'mongodb://localhost/reservas';
 const dbURI = 'mongodb://localhost/test';
+
 mongoose.connect(dbURI, {useNewUrlParser: true, useUnifiedTopology: true});
 
 mongoose.connection.on('connected',()=>{
@@ -35,5 +37,4 @@ process.on('SIGTERM', () => {
     process.exit(0);
   });
 });
-
 require('./esquema');

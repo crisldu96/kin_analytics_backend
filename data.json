@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "5edda7f8c2c6b574c320ffa3"
+  },
+  "region": "Sierra",
+  "numParques": "cinco",
+  "infoParque": {
+    "nombre": "Coto",
+    "provincias": [
+      "Pichincha",
+      "Morona"
+    ],
+    "extension": "500"
+  }
+},{
+  "_id": {
+    "$oid": "5eddb5186c21f8257c3d4997"
+  },
+  "region": "Costa",
+  "numParques": "Diez",
+  "infoParque": []
+}]

@@ -5,14 +5,11 @@ block content
         h1= pageHeader.title
         p #{pageHeader.strapLine}
     div.regiones
-        each lugar in parquesNacionales
+        each lugar in region.infoParque
             .region-block
                 h4 #{lugar.nombre}
                 p Hectareas : #{lugar.extension}
-                p.provinc Provincias: 
+                p Provincias:
                     ul
                         each provincia in lugar.provincias
-                            li.provin #{provincia} 
-                
-                    
-                
+                            li.provin #{provincia}

@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1= title
+  form(action="", method="post", role="form")
+    | Nombre Parque:
+    br
+    br
+    input(name='nombre')
+    br
+    br
+    |  Extension:
+    br
+    br
+    input(name='extension')
+    br
+    br
+    |  Provincias (separar con comas):
+    br
+    br
+    input(name='provincias')
+    br
+    br
+    input(type='submit', value='Agregar Parque')
